@@ -1,0 +1,3 @@
+gcc --std=c99 -g -c stack.c -o stack.o
+gcc --std=c99 -g test.c stack.o queue.o stack_from_queues.o queue_from_stacks.o list_reverse.o -o test
+gcc --std=c99 -g unittest.c stack.o queue.o stack_from_queues.o queue_from_stacks.o list_reverse.o -o unittest
